@@ -464,7 +464,10 @@ h2 {
 
 #about {
   background-color: #180F0A;
-  position: relative;  
+  background-image: url('../images/tracks-bg.jpg');
+  background-size: cover;
+  background-position: 50% 0;
+  position: relative;
   width: 100%;
   display: flex;
 }
