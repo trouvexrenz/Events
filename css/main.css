@@ -250,11 +250,6 @@ h2 {
   border: 1px solid #fff;
 }
 
-p {
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 12px;
-}
-
 /*************************
 *******Explore CSS******
 **************************/
@@ -287,6 +282,11 @@ p {
   overflow: hidden;
   text-align: center;
   padding: 0
+}
+
+#countdown p {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
 }
 
 #countdown li {
