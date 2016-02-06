@@ -66,6 +66,7 @@
   <style type="text/css"></style>
   <style type="text/css"></style>
   <style type="text/css"></style>
+  <style type="text/css"></style>
   <script type="text/javascript" charset="UTF-8" src="http://maps.google.com/maps-api-v3/api/js/23/5/intl/en_gb/map.js"></script>
   <script type="text/javascript" charset="UTF-8" src="http://maps.google.com/maps-api-v3/api/js/23/5/intl/en_gb/util.js"></script>
   <script type="text/javascript" charset="UTF-8" src="http://maps.google.com/maps-api-v3/api/js/23/5/intl/en_gb/marker.js"></script>
@@ -129,6 +130,9 @@
   <script type="text/javascript" charset="UTF-8" src="http://maps.google.com/maps-api-v3/api/js/23/7/common.js"></script>
   <script type="text/javascript" charset="UTF-8" src="http://maps.google.com/maps-api-v3/api/js/23/7/util.js"></script>
   <script type="text/javascript" charset="UTF-8" src="http://maps.google.com/maps-api-v3/api/js/23/7/stats.js"></script>
+  <script type="text/javascript" charset="UTF-8" src="http://maps.google.com/maps-api-v3/api/js/23/7/intl/en_gb/common.js"></script>
+  <script type="text/javascript" charset="UTF-8" src="http://maps.google.com/maps-api-v3/api/js/23/7/intl/en_gb/util.js"></script>
+  <script type="text/javascript" charset="UTF-8" src="http://maps.google.com/maps-api-v3/api/js/23/7/intl/en_gb/stats.js"></script>
 </head>
 <!--/head-->
 
@@ -166,11 +170,11 @@
               </li>
               <li class="scroll"><a href="#about">Tracks</a>
               </li>
-              <li class="no-scroll active"><a href="#twitter">Twitter</a>
+              <li class="no-scroll"><a href="#twitter">Twitter</a>
               </li>
               <li><a class="no-scroll" href="https://www.facebook.com/messages/joe.contreras.794" target="_blank">PURCHASE TICKETS</a>
               </li>
-              <li class="scroll"><a href="#contact">Contact</a>
+              <li class="scroll active"><a href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -183,8 +187,8 @@
     <div id="main-slider" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#main-slider" data-slide-to="0" class=""></li>
-        <li data-target="#main-slider" data-slide-to="1" class=""></li>
-        <li data-target="#main-slider" data-slide-to="2" class="active"></li>
+        <li data-target="#main-slider" data-slide-to="1" class="active"></li>
+        <li data-target="#main-slider" data-slide-to="2" class=""></li>
       </ol>
       <div class="carousel-inner">
         <div class="item">
@@ -195,7 +199,7 @@
             <a href="#contact">soundcloud<i class="fa fa-angle-right"></i></a>
           </div>
         </div>
-        <div class="item">
+        <div class="item active">
           <img class="img-responsive" src="images/slider/bg2.jpg" alt="slider">
           <div class="carousel-caption">
             <h2>Listen to our tracks</h2>
@@ -203,7 +207,7 @@
             <a href="#contact">soundcloud<i class="fa fa-angle-right"></i></a>
           </div>
         </div>
-        <div class="item active">
+        <div class="item">
           <img class="img-responsive" src="images/slider/bg3.jpg" alt="slider">
           <div class="carousel-caption">
             <h2>Listen to our tracks</h2>
@@ -223,19 +227,19 @@
         <div class="col-md-6 col-md-offset-3">
           <ul id="countdown">
             <li>
-              <span class="days time-font">15</span>
+              <span class="days time-font">12</span>
               <p>days</p>
             </li>
             <li>
-              <span class="hours time-font">08</span>
+              <span class="hours time-font">20</span>
               <p class="">hours</p>
             </li>
             <li>
-              <span class="minutes time-font">40</span>
+              <span class="minutes time-font">08</span>
               <p class="">minutes</p>
             </li>
             <li>
-              <span class="seconds time-font">42</span>
+              <span class="seconds time-font">35</span>
               <p class="">seconds</p>
             </li>
           </ul>
@@ -294,7 +298,9 @@
     </div>
   </section>
   <!--/#event-->
-  <section id="about">
+  <section id="about" style="
+    height: 63%;
+">
     <div class="guitar2">
       <video class="img-responsive" src="movies/MVI_3818.MOV" style="
     width: 326px;
@@ -303,8 +309,11 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-sm-12 col-md-9">
-          <div id="event-carousel" class="carousel slide" data-interval="false">
+        <div class="col-sm-12 col-md-9" style="
+">
+          <div id="event-carousel" class="carousel slide" data-interval="false" style="
+    height: 185%;
+">
             <h2 class="heading">tracks</h2>
             <a class="even-control-left" href="#event-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
             <a class="even-control-right" href="#event-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
