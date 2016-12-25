@@ -445,6 +445,7 @@ h2 {
 
 #event-carousel {
   position: relative;
+  height: 89%;
 }
 
 .even-control-left, 
@@ -635,6 +636,9 @@ h2 {
 
 #sponsor .item ul li:last-child {
   margin-right: 0
+}
+.col-sm-12 {
+ height: 100%; 
 }
 
 .sponsor-control-left, 
